@@ -1,40 +1,31 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Notification Example</title>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Ebook Odontologia</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <script type="text/javascript" charset="utf-8" src="cordova-2.3.0.js"></script>
-    <script type="text/javascript" charset="utf-8">
+    <!-- Loading Bootstrap -->
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
 
-    // Wait for Cordova to load
-    //
-    document.addEventListener("deviceready", onDeviceReady, false);
+    <!-- Loading Flat UI -->
+    <link href="css/flat-ui.css" rel="stylesheet">
+    <link href="css/diagramacao.css" rel="stylesheet">
+    <link rel="shortcut icon" href="images/favicon.ico">
+  </style>
+  
+  <style type="text/css">
+<!--
+.style1 {color: #FFFFFF}
+-->
+  </style>
+</head>
 
-    // Cordova is ready
-    //
-    function onDeviceReady() {
-        // Empty
-    }
+<body>
+<div class="btn-success" id="musica">
+<a href="res/sound/cavalo.mp3" class="style1">Música</a></div>
+</body>
 
-    // alert dialog dismissed
-    function alertDismissed() {
-        // do something
-    }
 
-    // Show a custom alertDismissed
-    //
-    function showAlert() {
-        navigator.notification.alert(
-            'You are the winner!',  // message
-            alertDismissed,         // callback
-            'Game Over',            // title
-            'Done'                  // buttonName
-        );
-    }
-
-    </script>
-  </head>
-  <body>
-    <p><a href="#" onclick="showAlert(); return false;">Show Alert</a></p>
-  </body>
 </html>
