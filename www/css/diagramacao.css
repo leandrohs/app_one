@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* CSS Document */
+
+div#primeiro_espaco{
+width:100%;
+}
+
+}
+div#conteudo{
+width:80%;
+float:inherit
+}
+
+div#btn_controle{
+padding:3px;
+}
