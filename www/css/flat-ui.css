@@ -1,10 +1,10 @@
-@import url("http://fonts.googleapis.com/css?family=Lato:400,700,700italic,900,400italic,300");
+@import url(http://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600,700,300italic,400italic,600italic,700italic);
+
+/*font-family: 'Josefin Sans', sans-serif; */
+
 @font-face {
-  font-family: "Flat-UI-Icons";
-  src: url("../fonts/Flat-UI-Icons.eot");
-  src: url("../fonts/Flat-UI-Icons.eot?#iefix") format("embedded-opentype"), url("../fonts/Flat-UI-Icons.woff") format("woff"), url("../fonts/Flat-UI-Icons.ttf") format("truetype"), url("../fonts/Flat-UI-Icons.svg#Flat-UI-Icons") format("svg");
-  font-weight: normal;
-  font-style: normal;
+font-family: 'Josefin Sans', sans-serif;
+
 }
 /* Use the following CSS code if you want to use data attributes for inserting your icons */
 [data-icon]:before {
@@ -688,7 +688,7 @@ you can use the generic selector below, but it's slower:
 }
 body {
   color: #34495e;
-  font-family: "Lato", sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   font-size: 14px;
   line-height: 1.231;
 }
@@ -696,7 +696,7 @@ input,
 button,
 select,
 textarea {
-  font-family: "Lato", sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   font-size: 14px;
 }
 a {
@@ -1444,7 +1444,7 @@ a.muted:focus {
 }
 .navbar .btn-navbar:before {
   content: "\e00c";
-  font-family: "Flat-UI-Icons";
+  font-family: 'Josefin Sans', sans-serif;
   font-size: 21.994px;
   font-style: normal;
   font-weight: normal;
@@ -1521,7 +1521,7 @@ a.muted:focus {
 }
 .navbar-unread,
 .navbar-new {
-  font-family: "Lato", sans-serif;
+ font-family: 'Josefin Sans', sans-serif;
   background-color: #1abc9c;
   border-radius: 50%;
   color: #ffffff;
@@ -1688,7 +1688,7 @@ a.muted:focus {
   background-color: #ffffff;
   border: 2px solid transparent;
   color: #526476;
-  font-family: "Lato", sans-serif;
+ font-family: 'Josefin Sans', sans-serif;
   font-size: 14.994px;
   /* 15px */
 
@@ -2054,7 +2054,7 @@ input[type="color"],
 .uneditable-input {
   border: 2px solid #bdc3c7;
   color: #34495e;
-  font-family: "Lato", sans-serif;
+ font-family: 'Josefin Sans', sans-serif;
   font-size: 14px;
   padding: 8px 5px;
   height: 21px;
@@ -3461,7 +3461,7 @@ input.search-query {
   background: transparent;
   border: none;
   color: #34495e;
-  font-family: "Lato", sans-serif;
+ font-family: 'Josefin Sans', sans-serif;
   font-size: 14px;
   margin: 0px;
   padding: 0 0 0 5px;
@@ -3489,7 +3489,7 @@ input.search-query {
 .tagsinput-remove-link:before {
   color: #ffffff;
   content: "\e00b";
-  font-family: "Flat-UI-Icons";
+  font-family: 'Josefin Sans', sans-serif;
 }
 .tagsinput-add-container {
   vertical-align: middle;
@@ -3518,7 +3518,7 @@ input.search-query {
 }
 .tagsinput-add:before {
   content: "\e009";
-  font-family: "Flat-UI-Icons";
+  font-family: 'Josefin Sans', sans-serif;
 }
 .tags_clear {
   clear: both;
@@ -3737,7 +3737,7 @@ input.search-query {
 }
 .ui-spinner-button span:before {
   content: "\e001";
-  font-family: "Flat-UI-Icons";
+  font-family: 'Josefin Sans', sans-serif;
   font-size: 16px;
   -webkit-font-smoothing: antialiased;
 }
@@ -5780,7 +5780,7 @@ input.search-query {
   background-color: #2a7aaf;
   border-radius: 50%;
   color: #ffffff;
-  font-family: "Lato", sans-serif;
+ font-family: 'Josefin Sans', sans-serif;
   font-size: 11.998px;
   font-weight: 500;
   line-height: 18.998px;
